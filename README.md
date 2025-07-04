@@ -40,7 +40,7 @@ node_modules/
 ---
 
 ### 2. **package.json**
-
+```json
 {
   "name": "personal-finance-dashboard",
   "version": "1.0.0",
@@ -61,28 +61,28 @@ node_modules/
     "postcss": "^8.0.0"
   }
 }
-
+```
 ---
 
 ### 3. **tailwind.config.js**
-
+```js
 module.exports = {
   content: ["./pages/**/*.{js,jsx}", "./components/**/*.{js,jsx}"],
   theme: { extend: {} },
   plugins: [],
 };
-
+```
 ---
 
 ### 4. **postcss.config.js**
-
+```js
 module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
   },
 };
-
+```
 ---
 
 ### 5. **next.config.js**
